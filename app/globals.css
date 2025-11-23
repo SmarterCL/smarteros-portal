@@ -1,0 +1,13 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --smarter-primary: #10b981;
+  --smarter-secondary: #3b82f6;
+  --smarter-accent: #f59e0b;
+}
+
+body {
+  @apply bg-gray-50 text-gray-900;
+}
